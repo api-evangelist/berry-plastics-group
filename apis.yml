@@ -20,6 +20,8 @@ description: >-
   As Berry Global, the company subsequently merged with Amcor in 2024.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/berry-plastics-group-domain-security.yml
   - type: Website
     url: https://www.berryglobal.com
   - type: LinkedIn
