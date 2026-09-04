@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.berryglobal.com', status: 307, note: 'declared website redirects to https://www.amcor.com/ — a different registrable domain (berryglobal.com -> amcor.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/berry-plastics-group.png
 url: https://raw.githubusercontent.com/api-evangelist/berry-plastics-group/refs/heads/main/apis.yml
 name: Berry Plastics Group
