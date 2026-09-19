@@ -1,7 +1,9 @@
 ---
 title: Berry Plastics Adds Digimarc Barcode to Consumer ...
 url: https://www.prnewswire.com/news-releases/berry-plastics-adds-digimarc-barcode-to-consumer-packaging-solutions-300356525.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Berry Plastics Group" press release artificial intelligence'
 position: 2
 source: serpapi-google

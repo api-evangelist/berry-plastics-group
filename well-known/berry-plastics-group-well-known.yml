@@ -1,0 +1,99 @@
+generated: '2026-09-19'
+method: probed
+source: live GET of the named /.well-known/ path list on every host this record knows (registrable domain, www,
+  and the cross-domain redirect target berryglobal.com now resolves to)
+hit_count: 0
+note: 'Berry Plastics Group (renamed Berry Global Group in 2017) no longer operates a host of its own: berryglobal.com
+  301s to www.berryglobal.com, and www.berryglobal.com 307s EVERY path to packagingsolutions.amcor.com, Amcor''s
+  domain, following the 2025-04-30 completion of the Amcor/Berry combination. On that redirect target every named
+  discovery path returned 404 or a 302 to a Sitecore notfound page; the negative-control path returned 404, so these
+  are true absences and not a path-echoing SPA catch-all. Documents that might exist on amcor.com belong to Amcor,
+  not to this company, and are not credited here. No WellKnown or SecurityTxt pointer is emitted: this file records
+  an absence, not a served surface.'
+hosts:
+- host: https://berryglobal.com
+  path_echo_control: redirect
+  note: every path 301s to https://www.berryglobal.com/<path>
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/oauth-protected-resource
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /.well-known/agent-card.json
+    status: 301
+  - path: /.well-known/agent.json
+    status: 301
+  - path: /.well-known/apis.json
+    status: 301
+  - path: /apis.json
+    status: 301
+  - path: /llms.txt
+    status: 301
+- host: https://www.berryglobal.com
+  path_echo_control: redirect
+  note: every path 307s cross-domain to https://packagingsolutions.amcor.com/<path> (Amcor, the acquirer)
+  documents:
+  - path: /.well-known/security.txt
+    status: 307
+  - path: /.well-known/openid-configuration
+    status: 307
+  - path: /.well-known/oauth-authorization-server
+    status: 307
+  - path: /.well-known/oauth-protected-resource
+    status: 307
+  - path: /.well-known/api-catalog
+    status: 307
+  - path: /.well-known/ai-plugin.json
+    status: 307
+  - path: /.well-known/agent-card.json
+    status: 307
+  - path: /.well-known/agent.json
+    status: 307
+  - path: /.well-known/apis.json
+    status: 307
+  - path: /apis.json
+    status: 307
+  - path: /llms.txt
+    status: 307
+- host: https://packagingsolutions.amcor.com
+  path_echo_control: passed
+  note: redirect target of www.berryglobal.com; owned by Amcor plc, probed only to close the redirect chain — nothing
+    served here would be credited to Berry Plastics Group
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 302
+    note: 302 to /sitecore/service/notfound.aspx — a Sitecore not-found page, treated as a miss
+  - path: /.well-known/oauth-authorization-server
+    status: 302
+    note: 302 to /sitecore/service/notfound.aspx — treated as a miss
+  - path: /.well-known/oauth-protected-resource
+    status: 302
+    note: 302 to /sitecore/service/notfound.aspx — treated as a miss
+  - path: /.well-known/api-catalog
+    status: 302
+    note: 302 to /sitecore/service/notfound.aspx — treated as a miss
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /.well-known/berry-negative-control-7f3ab91c.json
+    status: 404
+    note: negative control — a path that should never exist returned 404, so the 404s above are true absences

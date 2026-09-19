@@ -1,7 +1,9 @@
 ---
 title: Berry Plastics Group, Inc. Announces Agreement to ...
 url: https://njbmagazine.com/njb-news-now/berry-plastics-group-inc-announces-agreement-acquire-aep-industries-inc/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Berry Plastics Group" press release artificial intelligence'
 position: 1
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Berry Plastics To Buy Smaller Rival In $765M Cash, Stock Deal
 url: https://www.law360.com/articles/832595/berry-plastics-to-buy-smaller-rival-in-765m-cash-stock-deal
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Berry Plastics Group" press release artificial intelligence'
 position: 5
 source: serpapi-google

@@ -1,0 +1,25 @@
+# Front Door AI Index — berry-plastics-group — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: berry-plastics-group
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.berryglobal.com
+  final_host: www.amcor.com
+  ownership: inherited
+  owner: berry-global
+  shares_host_with:
+  - berry-global
+  inherited_from: www.amcor.com
+  verdict: silent
+  score: null
+  host_score: 0
+  density: null
+  words: 450
+  tiers:
+    agentic: 0
+    core: 0
+    model: 0
+  ambiguous: 0
+  top_terms: null
