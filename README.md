@@ -1,4 +1,4 @@
-# Berry Plastics Group (berry-plastics-group)
+# Berry Plastics Group
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,54 +64,45 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Berry Plastics Group was a manufacturer and marketer of plastic packaging products, nonwoven specialty materials, and engineered materials serving customers across consumer and industrial markets. The company was renamed Berry Global Group in 2017 to reflect its global operations and diversified product portfolio beyond plastics. As Berry Global, the company subsequently merged with Amcor in 2024.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**URL:** [https://www.berryglobal.com](https://www.berryglobal.com)
+Berry Plastics Group was a manufacturer and marketer of plastic packaging products, nonwoven specialty materials, and engineered materials serving customers across consumer and industrial markets. The company was renamed Berry Global Group in 2017 to reflect its global operations and diversified product portfolio beyond plastics. As Berry Global, the company agreed in November 2024 to an all-stock combination with Amcor plc, which completed on 30 April 2025; berryglobal.com now redirects to Amcor's packaging site. It never published a developer program, an API, or a machine-readable contract of any kind.
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+**Areas:** Packaging · Plastics · Manufacturing · Materials · Consumer Goods · Industrial · Fortune 500 · Defunct
 
-## Tags:
+## Berry Plastics Group on APIs.io (historical record)
 
- - Packaging, Plastics, Manufacturing, Materials, Consumer Goods, Industrial
+Everything profiled for Berry Plastics Group is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/berry-plastics-group/](https://apis.io/providers/berry-plastics-group/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-04-19
-- **Modified:** 2026-04-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Common Properties
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Berry Plastics Group Domain Security](https://apis.io/security/berry-plastics-group/berry-plastics-group-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.berryglobal.com)
-- [LinkedIn](https://www.linkedin.com/company/berry-global)
+- [GitHub](https://github.com/berryglobal)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Rigid Open Top Packaging | Plastic containers, pails, and rigid packaging for food, beverage, and industrial markets. |
-| Closures and Dispensing | Caps, closures, pumps, and spray dispensing systems for consumer and industrial products. |
-| Flexible Films and Packaging | Stretch films, shrink films, and flexible packaging solutions for retail and industrial use. |
-| Specialty Materials | Nonwoven fabrics and specialty engineered materials for hygiene and industrial applications. |
-| Tapes and Protective Products | Industrial tapes, label materials, and surface protection films. |
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Food and Beverage Packaging | Plastic containers and closures for food, beverage, and dairy products. |
-| Personal Care and Beauty | Packaging solutions for personal care, cosmetics, and beauty product brands. |
-| Industrial and Agricultural | Heavy-duty stretch film, containers, and packaging for industrial and agricultural markets. |
-| Healthcare Packaging | Packaging for pharmaceutical and medical device applications. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Berry Plastics Group: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Berry Global Group | Berry Plastics Group was rebranded as Berry Global Group in 2017 to reflect its global expansion. |
-| Amcor | Berry Global (formerly Berry Plastics) merged with Amcor in 2024 creating a global packaging leader. |
+## Open an issue
 
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/berry-plastics-group/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
